@@ -20,12 +20,22 @@ ARCHITECTURE DIAGRAM:
 EXECUTION:
 
 •	Deploy and host a webpage using amazon amplify.
+
 •	To do math calculations in our web application – Create a Python Lambda function to implement math functionality.
+
 •	Test the Lambda function.
+
 •	To invoke our Lambda function– Create a REST API for the Lambda function using API Gateway.
+
 •	Create a new DynamoDB table to store math result.
+
 •	Give Lambda permission to write to the DynamoDB table.
+
 •	Update the Lambda function code to write to the DynamoDB table.
+
 •	Invoke the API Gateway endpoint from the index.html page in Amplify.
+
 •	Update the index.html page to call API Gateway.
+
 •	Re-deploy index.html page again using Amplify.
+
